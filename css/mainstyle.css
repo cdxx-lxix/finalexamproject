@@ -1,0 +1,232 @@
+/* UPPER PART | HEADER.PHP */
+.menu {
+    background-color: #2B8DDB;
+    overflow: hidden;
+}
+
+.menu a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    background-color: #999999;
+    color: black;
+}
+
+a#current {
+    background-color: #1114A8;
+    color: white;
+}
+
+
+
+/* JUICY CONTENT PARTITION */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+    background: #f1f1f1;
+    min-height: 100vh;
+    position: relative;
+}
+
+.header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+}
+
+.leftcolumn {
+    float: left;
+    width: 60%;
+}
+
+.rightcolumn {
+    float: left;
+    width: 18%;
+    padding-left: 20px;
+}
+
+.left-scroll {
+    float: left;
+    width: 10%;
+}
+
+.left-scroll-button {
+    height: 99.6%;
+    opacity: 0.2;
+}
+
+.left-scroll-button:hover {
+    background-color: #2B8DDB;
+    opacity: 0.3;
+}
+
+.full-version-button {
+    opacity: 0.2;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.full-version-button:hover {
+    background-color: #2B8DDB;
+    opacity: 0.3;
+}
+
+.new-post-form {
+    display: contents;
+}
+
+.new-post-field {
+    margin-bottom: 0.5em;
+}
+
+.new-post-lower {
+    display: inline;
+    border: black solid 1px;
+    padding: 10px;
+}
+
+#cnp-upload {
+    border: black solid 1px;
+    padding: 3px;
+}
+
+#cnp-category {
+    margin-left: 8em;
+}
+
+.cnp-buttons {
+    float: right;
+    margin-right: 0.4em;
+}
+
+.MySoc {
+    display: inherit;
+}
+
+.MySearch {
+    display: inherit;
+}
+
+.MyAuth {
+    display: contents;
+}
+
+.MyAuth input {
+    margin: 5px;
+}
+
+.card-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.card-text-full {
+    /* Come up with some style for full text ffs */
+}
+
+.MyRegistration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
+
+.MyRegistration input {
+    margin: 0.3em;
+}
+
+.profile-image {
+    float: left;
+}
+
+.MyMiniPost {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.edit-window-element {
+    margin-bottom: 0.5em;
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    border: #0a53be solid 2px;
+}
+
+.profile-info {
+    float: left;
+    margin-left: 20px;
+}
+
+#drop-area {
+    border: 2px dashed #ccc;
+    border-radius: 20px;
+    width: 480px;
+    font-family: sans-serif;
+    margin: 2em auto;
+    padding: 20px;
+}
+#drop-area.highlight {
+    border-color: purple;
+}
+
+.img-btn {
+    float: right;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.error {
+    top: 12%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* LOWEST PART | FOOTER.PHP */
+footer {
+    position: inherit;
+    margin-top: 3em;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2B8DDB;
+    color: black;
+    text-align: center;
+}

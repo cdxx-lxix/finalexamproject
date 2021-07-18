@@ -1,0 +1,37 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.btn-back {
+    position: absolute;
+    right: 0;
+    margin-right: 0.5em;
+}
+
+#live-search {
+    margin-bottom: 0.5em;
+}
+
+td {
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
